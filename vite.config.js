@@ -1,4 +1,4 @@
-// vite.config.js
-export default {
-    base: 'notifications-page-main'
-  }
+import {defineConfig } from 'vite'
+export default defineConfig ({
+    base: '/notifications-page-main/'
+});
